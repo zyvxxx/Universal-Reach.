@@ -1,19 +1,9 @@
 local keys = {
-    "555555",
-    "666666",
-    "777777",
-    "888888",
-    "999999",
-    "000000"
+    "555555"
 }
 
 local Players = {
-    "yolobilly10",
-    "MazzaGoat1",
-    "MazzaGoat2",
-    "MazzaGoat3",
-    "MazzaGoat4",
-    "MazzaGoat5"
+    "yolobilly10"
 }
 
 local PlayerKeyMapping = {}
