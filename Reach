@@ -7,7 +7,7 @@ local keys = {
     "000000"
 }
 
-local players = {
+local Players = {
     "yolobilly10",
     "MazzaGoat1",
     "MazzaGoat2",
@@ -16,10 +16,10 @@ local players = {
     "MazzaGoat5"
 }
 
-local playerKeyMapping = {}
+local PlayerKeyMapping = {}
 
-for i, player in ipairs(players) do
-    playerKeyMapping[player] = keys[i]
+for i, Player in ipairs(Players) do
+    PlayerKeyMapping[Player] = keys[i]
 end
 
-print(playerKeyMapping)
+print(PlayerKeyMapping)
