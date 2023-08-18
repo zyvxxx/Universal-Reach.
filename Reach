@@ -1,1 +1,25 @@
-345ij23gCRf
+local keys = {
+    "555555",
+    "666666",
+    "777777",
+    "888888",
+    "999999",
+    "000000"
+}
+
+local players = {
+    "MazzaGoat",
+    "MazzaGoat1",
+    "MazzaGoat2",
+    "MazzaGoat3",
+    "MazzaGoat4",
+    "MazzaGoat5"
+}
+
+local playerKeyMapping = {}
+
+for i, player in ipairs(players) do
+    playerKeyMapping[player] = keys[i]
+end
+
+print(playerKeyMapping)
