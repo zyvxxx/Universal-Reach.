@@ -1,15 +1,1 @@
-local keys = {
-    "ilikecrazybillys"
-}
-
-local players = {
-    "yolobilly10"
-}
-
-local playerKeyMapping = {}
-
-for i, player in ipairs(players) do
-    playerKeyMapping[player] = keys[i]
-end
-
-print(playerKeyMapping)
+safeaitkj4etg
