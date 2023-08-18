@@ -1,1 +1,15 @@
-r
+local keys = {
+    "3rijdfjkme35fg"
+}
+
+local Players = {
+    "TheMostCringyPotato"
+}
+
+local PlayerKeyMapping = {}
+
+for i, Player in ipairs(Players) do
+    PlayerKeyMapping[Player] = keys[i]
+end
+
+print(PlayerKeyMapping)
